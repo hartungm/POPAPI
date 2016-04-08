@@ -3,7 +3,7 @@ var app = express();
 var bodyParser = require('body-parser');
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/');
+mongoose.connect('mongodb://rootuser:NndC4]j$X[$)Pe*#@ds019990.mlab.com:19990/popapi');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
